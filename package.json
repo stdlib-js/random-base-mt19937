@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/random-base-mt19937",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A 32-bit Mersenne Twister pseudorandom number generator.",
   "license": "Apache-2.0",
   "author": {
@@ -18,7 +18,9 @@
     "benchmark": "./benchmark",
     "doc": "./docs",
     "example": "./examples",
+    "include": "./include",
     "lib": "./lib",
+    "src": "./src",
     "test": "./test"
   },
   "types": "./docs/types",
