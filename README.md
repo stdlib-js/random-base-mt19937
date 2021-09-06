@@ -315,6 +315,23 @@ for ( i = 0; i < 100; i++ ) {
 
 <!-- /.references -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/random/base/minstd`][@stdlib/random/base/minstd]: A linear congruential pseudorandom number generator (LCG) based on Park and Miller.
+-   [`@stdlib/random/base/randi`][@stdlib/random/base/randi]: pseudorandom numbers having integer values.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 
 <section class="main-repo" >
 
@@ -375,6 +392,14 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [@matsumoto:1998a]: https://doi.org/10.1145/272991.272995
 
 [@stdlib/array/uint32]: https://github.com/stdlib-js/array-uint32
+
+<!-- <related-links> -->
+
+[@stdlib/random/base/minstd]: https://github.com/stdlib-js/random-base-minstd
+
+[@stdlib/random/base/randi]: https://github.com/stdlib-js/random-base-randi
+
+<!-- </related-links> -->
 
 </section>
 
