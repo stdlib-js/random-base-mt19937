@@ -64,7 +64,7 @@
   "devDependencies": {
     "@stdlib/bench": "^0.0.x",
     "@stdlib/math-base-assert-is-nan": "^0.0.x",
-    "@stdlib/math-base-assert-is-positive-integer": "^0.0.x",
+    "@stdlib/math-base-assert-is-nonnegative-integer": "^0.0.x",
     "@stdlib/process-env": "^0.0.x",
     "@stdlib/random-base-minstd-shuffle": "^0.0.x",
     "@stdlib/stats-kstest": "^0.0.x",
