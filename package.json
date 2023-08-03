@@ -3,8 +3,33 @@
   "version": "0.0.6",
   "description": "A 32-bit Mersenne Twister pseudorandom number generator.",
   "license": "Apache-2.0",
-  "type": "module",
-  "main": "./index.mjs",
+  "author": {
+    "name": "The Stdlib Authors",
+    "url": "https://github.com/stdlib-js/stdlib/graphs/contributors"
+  },
+  "contributors": [
+    {
+      "name": "The Stdlib Authors",
+      "url": "https://github.com/stdlib-js/stdlib/graphs/contributors"
+    }
+  ],
+  "main": "./lib",
+  "directories": {
+    "benchmark": "./benchmark",
+    "doc": "./docs",
+    "example": "./examples",
+    "include": "./include",
+    "lib": "./lib",
+    "src": "./src",
+    "test": "./test"
+  },
+  "types": "./docs/types",
+  "scripts": {
+    "test": "make test",
+    "test-cov": "make test-cov",
+    "examples": "make examples",
+    "benchmark": "make benchmark"
+  },
   "homepage": "https://stdlib.io",
   "repository": {
     "type": "git",
@@ -13,6 +38,55 @@
   "bugs": {
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
+  "dependencies": {
+    "@stdlib/array-to-json": "^0.0.7",
+    "@stdlib/array-uint32": "^0.0.6",
+    "@stdlib/assert-has-own-property": "^0.0.7",
+    "@stdlib/assert-is-boolean": "^0.0.8",
+    "@stdlib/assert-is-collection": "^0.0.8",
+    "@stdlib/assert-is-plain-object": "^0.0.7",
+    "@stdlib/assert-is-positive-integer": "^0.0.7",
+    "@stdlib/assert-is-uint32array": "^0.0.8",
+    "@stdlib/blas-base-gcopy": "^0.0.8",
+    "@stdlib/constants-float64-max-safe-integer": "^0.0.8",
+    "@stdlib/constants-uint32-max": "^0.0.7",
+    "@stdlib/math-base-ops-umul": "^0.0.1",
+    "@stdlib/math-base-special-floor": "^0.0.8",
+    "@stdlib/math-base-special-max": "^0.0.7",
+    "@stdlib/random-base": "^0.0.6",
+    "@stdlib/error-tools-fmtprodmsg": "^0.0.2",
+    "@stdlib/types": "^0.0.14",
+    "@stdlib/utils-define-nonenumerable-read-only-accessor": "^0.0.7",
+    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.0.7",
+    "@stdlib/utils-define-nonenumerable-read-write-accessor": "^0.0.7",
+    "@stdlib/utils-library-manifest": "^0.0.8"
+  },
+  "devDependencies": {
+    "@stdlib/bench": "^0.0.12",
+    "@stdlib/math-base-assert-is-nan": "^0.0.8",
+    "@stdlib/math-base-assert-is-nonnegative-integer": "^0.0.7",
+    "@stdlib/process-env": "^0.0.7",
+    "@stdlib/random-base-minstd-shuffle": "^0.0.6",
+    "@stdlib/stats-kstest": "^0.0.7",
+    "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
+    "istanbul": "^0.4.1",
+    "tap-min": "git+https://github.com/Planeshifter/tap-min.git"
+  },
+  "engines": {
+    "node": ">=0.10.0",
+    "npm": ">2.7.0"
+  },
+  "os": [
+    "aix",
+    "darwin",
+    "freebsd",
+    "linux",
+    "macos",
+    "openbsd",
+    "sunos",
+    "win32",
+    "windows"
+  ],
   "keywords": [
     "stdlib",
     "stdmath",
@@ -35,7 +109,7 @@
     "seedable"
   ],
   "funding": {
-    "type": "patreon",
-    "url": "https://www.patreon.com/athan"
+    "type": "opencollective",
+    "url": "https://opencollective.com/stdlib"
   }
 }
