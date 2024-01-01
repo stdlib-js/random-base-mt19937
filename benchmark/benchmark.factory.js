@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var bench = require( '@stdlib/bench' );
+var bench = require( '@stdlib/bench-harness' );
 var Uint32Array = require( '@stdlib/array-uint32' );
 var isnan = require( '@stdlib/math-base-assert-is-nan' );
 var minstd = require( '@stdlib/random-base-minstd-shuffle' );

@@ -53,7 +53,7 @@
     "@stdlib/math-base-ops-umul": "^0.1.1",
     "@stdlib/math-base-special-floor": "^0.1.1",
     "@stdlib/math-base-special-max": "^0.1.1",
-    "@stdlib/random-base": "^0.1.0",
+    "@stdlib/random-base": "^0.1.1",
     "@stdlib/string-format": "^0.1.1",
     "@stdlib/types": "^0.2.0",
     "@stdlib/utils-define-nonenumerable-read-only-accessor": "^0.1.1",
@@ -62,7 +62,6 @@
     "@stdlib/utils-library-manifest": "^0.1.1"
   },
   "devDependencies": {
-    "@stdlib/bench": "^0.2.1",
     "@stdlib/math-base-assert-is-nan": "^0.1.1",
     "@stdlib/math-base-assert-is-nonnegative-integer": "^0.1.1",
     "@stdlib/process-env": "^0.1.1",
@@ -70,7 +69,8 @@
     "@stdlib/stats-kstest": "^0.1.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
-    "tap-min": "git+https://github.com/Planeshifter/tap-min.git"
+    "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
+    "@stdlib/bench-harness": "^0.1.2"
   },
   "engines": {
     "node": ">=0.10.0",

@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var bench = require( '@stdlib/bench' );
+var bench = require( '@stdlib/bench-harness' );
 var isnan = require( '@stdlib/math-base-assert-is-nan' );
 var pkg = require( './../package.json' ).name;
 var mt19937 = require( './../lib' );
