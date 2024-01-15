@@ -35,30 +35,20 @@ limitations under the License.
 
 > A 32-bit [Mersenne Twister][mersenne-twister] pseudorandom number generator.
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/random-base-mt19937
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var mt19937 = require( '@stdlib/random-base-mt19937' );
+import mt19937 from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-mt19937@esm/index.mjs';
+```
+
+You can also import the following named exports from the package:
+
+```javascript
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-mt19937@esm/index.mjs';
 ```
 
 #### mt19937()
@@ -107,7 +97,7 @@ var r = rand();
 or, for arbitrary length seeds, an array-like `object` containing unsigned 32-bit integers
 
 ```javascript
-var Uint32Array = require( '@stdlib/array-uint32' );
+import Uint32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint32@esm/index.mjs';
 
 var rand = mt19937.factory({
     'seed': new Uint32Array( [ 291, 564, 837, 1110 ] )
@@ -287,8 +277,13 @@ var o = mt19937.toJSON();
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var mt19937 = require( '@stdlib/random-base-mt19937' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="module">
+
+import mt19937 from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-mt19937@esm/index.mjs';
 
 var seed;
 var rand;
@@ -315,6 +310,10 @@ rand = mt19937.factory({
 for ( i = 0; i < 100; i++ ) {
     console.log( rand() );
 }
+
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -361,7 +360,7 @@ for ( i = 0; i < 100; i++ ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -418,19 +417,19 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 [@matsumoto:1998a]: https://doi.org/10.1145/272991.272995
 
-[@stdlib/array/uint32]: https://github.com/stdlib-js/array-uint32
+[@stdlib/array/uint32]: https://github.com/stdlib-js/array-uint32/tree/esm
 
 <!-- <related-links> -->
 
-[@stdlib/random/array/mt19937]: https://github.com/stdlib-js/random-array-mt19937
+[@stdlib/random/array/mt19937]: https://github.com/stdlib-js/random-array-mt19937/tree/esm
 
-[@stdlib/random/iter/mt19937]: https://github.com/stdlib-js/random-iter-mt19937
+[@stdlib/random/iter/mt19937]: https://github.com/stdlib-js/random-iter-mt19937/tree/esm
 
-[@stdlib/random/streams/mt19937]: https://github.com/stdlib-js/random-streams-mt19937
+[@stdlib/random/streams/mt19937]: https://github.com/stdlib-js/random-streams-mt19937/tree/esm
 
-[@stdlib/random/base/minstd]: https://github.com/stdlib-js/random-base-minstd
+[@stdlib/random/base/minstd]: https://github.com/stdlib-js/random-base-minstd/tree/esm
 
-[@stdlib/random/base/randi]: https://github.com/stdlib-js/random-base-randi
+[@stdlib/random/base/randi]: https://github.com/stdlib-js/random-base-randi/tree/esm
 
 <!-- </related-links> -->
 
