@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import mt19937 from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-mt19937@esm/index.mjs';
+import mt19937 from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-mt19937@v0.2.1-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-mt19937@esm/index.mjs';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-mt19937@v0.2.1-esm/index.mjs';
 ```
 
 #### mt19937()
@@ -283,7 +283,7 @@ var o = mt19937.toJSON();
 <body>
 <script type="module">
 
-import mt19937 from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-mt19937@esm/index.mjs';
+import mt19937 from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-mt19937@v0.2.1-esm/index.mjs';
 
 var seed;
 var rand;
