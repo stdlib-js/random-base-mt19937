@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-24)
+## Unreleased (2025-01-03)
 
 <section class="bug-fixes">
 
 ### Bug Fixes
 
+-   [`e1296c1`](https://github.com/stdlib-js/stdlib/commit/e1296c1c5634fbcf5e007695391c944fef27e6aa) - update include paths and reorder includes
 -   [`09483ae`](https://github.com/stdlib-js/stdlib/commit/09483ae5cf6ed8edfce7d64d36a31339bc3e6e06) - update documentation to reflect correct seed range
 
 </section>
@@ -34,6 +35,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`e1296c1`](https://github.com/stdlib-js/stdlib/commit/e1296c1c5634fbcf5e007695391c944fef27e6aa) - **fix:** update include paths and reorder includes _(by Athan Reines)_
 -   [`90e96d0`](https://github.com/stdlib-js/stdlib/commit/90e96d01b7a32ec3b71caf3e5f57528338199a8f) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`2777e4b`](https://github.com/stdlib-js/stdlib/commit/2777e4be161869d09406e3b17947d24c64b47af2) - **bench:** resolve lint errors in benchmarks _(by Athan Reines)_
 -   [`d04dcbd`](https://github.com/stdlib-js/stdlib/commit/d04dcbd6dc3b0bf4a89bd3947d317fa5ff15bb38) - **docs:** remove private annotations in C comments _(by Philipp Burckhardt)_
