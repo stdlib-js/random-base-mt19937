@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-10)
+## Unreleased (2025-04-01)
 
 <section class="bug-fixes">
 
@@ -35,6 +35,8 @@ This release closes the following issue:
 
 <details>
 
+-   [`03ee1fb`](https://github.com/stdlib-js/stdlib/commit/03ee1fba12581e0c4bdf79514ae8477d64ffe2fe) - **docs:** fix description _(by Athan Reines)_
+-   [`5fc6df0`](https://github.com/stdlib-js/stdlib/commit/5fc6df084a95993c26151ceadb663bcd5dce4d29) - **docs:** fix description _(by Athan Reines)_
 -   [`d2fa5d2`](https://github.com/stdlib-js/stdlib/commit/d2fa5d260975d98ecea0fb9ccd2e8a24756a1f96) - **docs:** update example _(by Athan Reines)_
 -   [`3eb6fa4`](https://github.com/stdlib-js/stdlib/commit/3eb6fa42360272e0e664c714766443ed90cb41b6) - **docs:** update examples _(by Athan Reines)_
 -   [`5260d13`](https://github.com/stdlib-js/stdlib/commit/5260d1347c8cd3f669d47dabe8cc6f954809bb27) - **refactor:** update paths _(by Gururaj Gurram)_
