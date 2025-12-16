@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-01)
+## Unreleased (2025-12-16)
 
 <section class="bug-fixes">
 
@@ -21,9 +21,9 @@
 
 ### Closed Issues
 
-This release closes the following issue:
+A total of 2 issues were closed in this release:
 
-[#1963](https://github.com/stdlib-js/stdlib/issues/1963)
+[#1963](https://github.com/stdlib-js/stdlib/issues/1963), [#9072](https://github.com/stdlib-js/stdlib/issues/9072)
 
 </section>
 
@@ -35,6 +35,10 @@ This release closes the following issue:
 
 <details>
 
+-   [`a06cfdd`](https://github.com/stdlib-js/stdlib/commit/a06cfdd5151299614d8c9e2a895d22a18955a289) - **chore:** fix C lint errors [(#9073)](https://github.com/stdlib-js/stdlib/pull/9073) _(by Geo Daoyu, Athan Reines)_
+-   [`11581aa`](https://github.com/stdlib-js/stdlib/commit/11581aaca8c3cb824cbb92c0c0f80e76890bdb20) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`54da286`](https://github.com/stdlib-js/stdlib/commit/54da28610f5ee6b2aa181addb1775d32f79043ee) - **test:** use .strictEqual() instead of .equal() and fix lint errors _(by Philipp Burckhardt)_
+-   [`504a3f1`](https://github.com/stdlib-js/stdlib/commit/504a3f1d1db20b670b48efd1c292d7efbb433b58) - **style:** fix indentation in JSON files _(by Philipp Burckhardt)_
 -   [`03ee1fb`](https://github.com/stdlib-js/stdlib/commit/03ee1fba12581e0c4bdf79514ae8477d64ffe2fe) - **docs:** fix description _(by Athan Reines)_
 -   [`5fc6df0`](https://github.com/stdlib-js/stdlib/commit/5fc6df084a95993c26151ceadb663bcd5dce4d29) - **docs:** fix description _(by Athan Reines)_
 -   [`d2fa5d2`](https://github.com/stdlib-js/stdlib/commit/d2fa5d260975d98ecea0fb9ccd2e8a24756a1f96) - **docs:** update example _(by Athan Reines)_
@@ -58,9 +62,10 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Geo Daoyu
 -   Gururaj Gurram
 -   Philipp Burckhardt
 

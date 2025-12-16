@@ -63,6 +63,7 @@
     "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
   },
   "devDependencies": {
+    "@stdlib/array-base-zeros": "^0.2.2",
     "@stdlib/math-base-assert-is-nan": "^0.2.2",
     "@stdlib/math-base-assert-is-nonnegative-integer": "^0.2.1",
     "@stdlib/process-env": "^0.2.2",
