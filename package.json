@@ -54,7 +54,7 @@
     "@stdlib/math-base-special-max": "^0.3.0",
     "@stdlib/number-uint32-base-mul": "^0.1.0",
     "@stdlib/random-base-shared": "^0.1.1",
-    "@stdlib/string-format": "^0.2.2",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2",
     "@stdlib/types": "^0.4.3",
     "@stdlib/utils-define-nonenumerable-read-only-accessor": "^0.2.3",
     "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.2",
