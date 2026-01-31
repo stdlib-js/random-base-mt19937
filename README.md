@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import mt19937 from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-mt19937@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/random-base-mt19937/tags). For example,
+
+```javascript
 import mt19937 from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-mt19937@v0.2.2-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-mt19937@v0.2.2-deno/mod.js';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-mt19937@deno/mod.js';
 ```
 
 #### mt19937()
@@ -273,7 +278,7 @@ var o = mt19937.toJSON();
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import mt19937 from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-mt19937@v0.2.2-deno/mod.js';
+import mt19937 from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-mt19937@deno/mod.js';
 
 // Generate pseudorandom numbers...
 var i;
