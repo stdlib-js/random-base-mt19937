@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-04)
+## Unreleased (2026-09-09)
 
 <section class="bug-fixes">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`448b573`](https://github.com/stdlib-js/stdlib/commit/448b57332b5deb707665dd500f8592b01b3be31e) - **bench:** bound seed growth in `factory` benchmark [(#15108)](https://github.com/stdlib-js/stdlib/pull/15108) _(by Philipp Burckhardt)_
 -   [`59fcfed`](https://github.com/stdlib-js/stdlib/commit/59fcfed7316f0575738c6e72c62863754138e95d) - **fix:** add missing method [(#14943)](https://github.com/stdlib-js/stdlib/pull/14943) _(by Abdul Kaium)_
 -   [`58556f4`](https://github.com/stdlib-js/stdlib/commit/58556f408eedf1737bc4795fb2734ef4dd2a6b32) - **chore:** clean-up [(#13978)](https://github.com/stdlib-js/stdlib/pull/13978) _(by Philipp Burckhardt)_
 -   [`b603d47`](https://github.com/stdlib-js/stdlib/commit/b603d47b873c4c30fb25d3cb2368aafc21444d6b) - **test:** add missing closing brace in TypeScript test files [(#12718)](https://github.com/stdlib-js/stdlib/pull/12718) _(by Philipp Burckhardt)_
